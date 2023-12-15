@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+    max-width: 100%;
+    max-height: 100%;
+    height: 100vh;
+}
+
+.title {
+    color: #FFFFFF;
+    font-family: 'PT Serif', serif;
+    text-shadow: 4px 2px 1px #4B4E6D;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    gap: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: #4B4E6D;
+    padding: 30px;
+    border-radius: 5%;
+    box-shadow: 5px 3px 1px #84DCC6;
+}
+
+.name, .email, .message {
+    display: flex;
+    flex-direction: column;
+    font-family: 'PT Serif', serif;
+    color: #FFFFFF;
+    gap: 5px;
+}
+
+.spanTitle {
+    text-shadow: 4px 2px 1px #222222;
+}
+
+.inputForm {
+    height: 25px;
+}

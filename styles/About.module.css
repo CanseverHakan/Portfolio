@@ -15,6 +15,7 @@
     border-radius: 50%;
     background-color: #4B4E6D;
     padding: 20px;
+    box-shadow: 5px 3px 1px #84DCC6;
 }
 
 .text, .hi, .dev, .name, .description {

@@ -9,9 +9,9 @@ export default function Navbar() {
             <img className={Styles.logo} src='logo.png'></img>
         </div>
         <div className={Styles.linkContainer}>
-          <Link href='/projects' className={Styles.link}>About</Link>
-          <Link href='/projects' className={Styles.link}>Projects</Link>
-          <Link href='/projects' className={Styles.link}>Contact</Link>
+          <Link href='/' className={`${Styles.link} ${Styles.about}`}>About</Link>
+          <Link href='/projects' className={`${Styles.link} ${Styles.project}`}>Projects</Link>
+          <Link href='/contact' className={`${Styles.link} ${Styles.contact}`}>Contact</Link>
         </div>
     </div>
   )
