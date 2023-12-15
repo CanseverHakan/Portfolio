@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #4B4E6D;
+    padding: 10px;
+}
+
+.logoContainer {
+    height: 10px;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+}
+
+.linkContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+}
+
+.link {
+    background: linear-gradient(90deg, rgba(132, 220, 198, 1) 20%, rgba(255, 255, 255, 1) 77%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}

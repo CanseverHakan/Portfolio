@@ -1,8 +1,8 @@
-import Home from '@/components/Home'
 import React from 'react'
+import Projects from '@/components/Projects'
 
 export default function index() {
   return (
-    <Home></Home>
+    <Projects></Projects>
   )
 }
