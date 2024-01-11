@@ -1,79 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
 
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
 .container {
-    display: flex;
-    flex-direction: row;
-    margin: 130px;
-    justify-content: space-around;
-    gap: 200px;
-    
+  display: flex;
+  flex-direction: row;
+  margin: 55px;
+  justify-content: space-around;
+  gap: 200px;
+
 }
 
 .photo {
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
-    background-color: #4B4E6D;
-    padding: 20px;
-    box-shadow: 5px 3px 1px #84DCC6;
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  background-color: #4B4E6D;
+  padding: 20px;
+  box-shadow: 6px 4px 1px #222222;
+  border: solid ;
 }
 
-.text, .hi, .dev, .name, .description {
-    font-family: 'PT Serif', serif;
+.text,
+.hi,
+.dev,
+.name,
+.description {
+  font-family: 'PT Serif', serif;
 }
 
 .text {
-    margin-top: 60px;
-    color: #FFFFFF;
-    text-shadow: 4px 2px 1px #4B4E6D;
+  margin-top: 60px;
+  color: #646891;
+  text-shadow: 4px 2px 1px #222222;
 }
 
-.hi, .dev {
-    font-size: 50px;
+.hi,
+.dev {
+  font-size: 50px;
 }
 
 .description {
-    font-size: 20px;
+  font-size: 30px;
 }
 
 
-@keyframes tipsy {
-    0% {
-      transform: translateX(-170%) translateY(-50%) rotate(0deg);
-    }
-    100% {
-      transform: translateX(440%) translateY(-50%) rotate(0deg);
-    }
-  }
-  
- 
-  .name {
-    color: #FFFFFF;
-    font-family: 'PT Serif', serif;
-    text-shadow: 4px 2px 1px #4B4E6D;
-    font-size: 80px;
-    font-weight: bold;
-    text-decoration: none;
-    letter-spacing: -3px;
-    transform: translateX(0%) translateY(0%);
-  }
-  
-  .name:before,
-  .name:after {
-    content: '';
-    padding: .6em .4em;
-    position: absolute;
-    left: 20%;
-    top: 50%;
-    display: block;
-    border: 10px solid #84DCC6;
-    animation: 5s infinite alternate ease-in-out tipsy;
-  }
-    .name:before {
-    border-color: #84DCC6 #84DCC6 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
-    z-index: -1;
-  }
-  
-  .name:after {
-    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #84DCC6 #84DCC6;
-  }
+.name {
+  color: #646891;
+  font-family: 'PT Serif', serif;
+  text-shadow: 4px 2px 1px #222222;
+  font-size: 80px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: -3px;
+}
+
+.language {
+  width: 100%;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  width: 5%;
+  gap: 20%;
+}
+
+.skillsContainer{
+  backdrop-filter: blur(15px);
+  padding: 10px;
+}

@@ -7,6 +7,7 @@
     justify-content: space-between;
     background-color: #4B4E6D;
     padding: 10px;
+    border-bottom: solid #222222;
 }
 
 .logoContainer {

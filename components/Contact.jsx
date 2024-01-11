@@ -18,6 +18,9 @@ export default function Contact() {
           <span className={Styles.spanTitle}>Message</span>
           <textarea name="message" id="" cols="60" rows="15"></textarea>
         </div>
+        <div>
+          <button className={Styles.btn}>Send email</button>
+        </div>
       </form>
     </div>
   )
