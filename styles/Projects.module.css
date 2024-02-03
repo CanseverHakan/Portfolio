@@ -49,6 +49,7 @@
     color: #FFFFFF;
     font-family: 'PT Serif', serif;
     text-shadow: 2px 2px 1px #000000;
+    font-size: 20px;
 }
 
 .description {
@@ -60,4 +61,5 @@
 .language {
     display: flex;
     justify-content: center;
+    margin-bottom: 2%;
 }

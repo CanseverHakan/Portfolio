@@ -7,7 +7,6 @@ export default function About() {
 
   return (
     <div className={Styles.main}>
-      <div className={Styles.mainContainer}>
         <div className={Styles.container}>
           <div className={Styles.text}>
             <div className={Styles.hi}>Hi, my name is</div>
@@ -30,7 +29,6 @@ export default function About() {
             <img className={Styles.language} src="/language/SF.png" alt="" />
           </div>
         </div>
-      </div>
     </div>
   )
 }

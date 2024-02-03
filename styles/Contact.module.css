@@ -21,19 +21,24 @@
     justify-content: center;
     align-items: center;
     margin-top: 1%;
-    gap: 10px;
+    gap: 50px;
 }
 
 .form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 20px;
+    gap: 30px;
     background-color: #4B4E6D;
     padding: 30px;
     border-radius: 5%;
     border: solid;
-    box-shadow: 4px 3px 1px #84DCC6;
+    box-shadow: 4px 3px 1px #ffffff;
+}
+
+.form input:focus {
+	outline: 0;
+	border-color: #777;
 }
 
 .name, .email, .message {
@@ -44,9 +49,7 @@
     gap: 5px;
 }
 
-.spanTitle {
-    text-shadow: 4px 2px 1px #222222;
-}
+
 
 .inputForm {
     height: 25px;
@@ -63,4 +66,8 @@
     width: 100px;
     cursor: pointer;
     margin: 5px;
+}
+
+.success {
+    color: white;
 }

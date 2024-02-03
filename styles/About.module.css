@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
 
-.mainContainer {
+
+.main {
   display: flex;
   flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden
 }
 
 .container {
   display: flex;
   flex-direction: row;
   margin: 55px;
+  margin-top: 10%;
   justify-content: space-around;
   gap: 200px;
 
@@ -30,6 +35,7 @@
 .name,
 .description {
   font-family: 'PT Serif', serif;
+
 }
 
 .text {
@@ -69,7 +75,11 @@
   gap: 20%;
 }
 
-.skillsContainer{
+.skillsContainer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   backdrop-filter: blur(15px);
   padding: 10px;
+  margin-bottom: 0px;
 }
