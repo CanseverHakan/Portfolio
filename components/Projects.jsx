@@ -19,7 +19,6 @@ export default function Projects() {
           </div>
         ))}
       </div>
-      <h1 className={Styles.mainTitle}>Mobil Projects</h1>
     </div>
   );
 }
