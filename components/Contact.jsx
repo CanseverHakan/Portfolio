@@ -43,7 +43,11 @@ export default function Contact() {
           {isEmailSent && <p className={Styles.success}>Email envoyé</p>}
         </form>
         <div className={Styles.cv}>
-          
+          <img className={Styles.cvImg} src='ImgCV.pdf.png' alt='Curriculum Vitae'></img>
+          <a className={Styles.cvImgLink}
+            href='CVCanseverHakan.pdf'
+            download='CVCanseverHakan.pdf'
+          >Download</a>
         </div>
       </div>
     </div>

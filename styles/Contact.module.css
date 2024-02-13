@@ -9,6 +9,12 @@
     height: 100vh;
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+}
+
 .title {
     color: #FFFFFF;
     font-family: 'PT Serif', serif;
@@ -21,7 +27,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 1%;
-    gap: 50px;
+    gap: 40px;
 }
 
 .form {
@@ -36,11 +42,13 @@
 }
 
 .form input:focus {
-	outline: 0;
-	border-color: #777;
+    outline: 0;
+    border-color: #777;
 }
 
-.name, .email, .message {
+.name,
+.email,
+.message {
     display: flex;
     flex-direction: column;
     font-family: 'PT Serif', serif;
@@ -80,5 +88,20 @@
 
 
 .success {
+    color: white;
+}
+
+.cvImg {
+    width: 43%;
+    border-radius: 15px;
+}
+
+.cv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cvImgLink {
     color: white;
 }
